@@ -1,4 +1,4 @@
-todoArray = [
+let todoArray = [
     {
         id: 1,
         text: "Clean up",
