@@ -5,7 +5,7 @@ let contactArray = [
         number: "679107784",
     },
     {
-        id: 1,
+        id: 2,
         name: "Dan",
         number: "665327981",
     },
