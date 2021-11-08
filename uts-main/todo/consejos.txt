@@ -1,0 +1,9 @@
+input: 
+add: add item to array (PUT)
+item:
+ok: done-> strike trhough(UPDATE)
+x: delete item from array(DELETE)
+
+show all items in array (GET)
+
+escribe funciones que solo gestionan las 4 operaciones del array y luego envuelve las en funciones que actualizan el interfaz. estas funciones de segunda capa son las que vas a usar dentro de tu programa
