@@ -43,7 +43,7 @@ function contactEditable(contact){
         <button id="edit-2" onclick=" ItemContactEditable(id)">Save</button>
       </li>
      `
-    
+
 }
 
 updateContactList(contactArray)
