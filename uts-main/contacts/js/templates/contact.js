@@ -2,7 +2,7 @@ function updateListInfo(contact) {
     return `
     <li id="contact-${contact.id}">
         ${contact.name}   ${contact.number}
-        <button id="edit-1" onclick="contactEditable()">Edit</button>
+        <button id="edit-1" onclick="contactEditable(${contact.id})">Edit</button>
         <button id="delete-${contact.id}" onclick="deleteContact (${contact.id})">X</button>
     </li>
     `
@@ -43,6 +43,7 @@ function contactEditable(contact){
         <button id="edit-2" onclick=" ItemContactEditable(id)">Save</button>
       </li>
      `
+    
 }
 
 updateContactList(contactArray)
